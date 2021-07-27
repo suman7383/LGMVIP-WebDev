@@ -1,0 +1,920 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: #ebbb76;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.2px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: white;
+  margin: 2rem 0;
+  width: 75%;
+  height: auto;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0.4rem 0.5rem 0.5rem rgba(0, 0, 0, 0.6);
+}
+
+.main_section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 70vh;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.main_1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  background: url("img/m-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: 0.6s ease-in;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+}
+.navbar_1 {
+  margin: 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s ease;
+  width: 100%;
+  position: relative;
+  height: 6vh;
+  line-height: 1rem;
+  margin: 0 0.5rem;
+  margin-bottom: 3rem;
+  margin-top: 0.5rem;
+}
+
+.nav_header {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  height: 5vh;
+  color: white;
+  text-align: center;
+  left: 24%;
+}
+
+.navbar_item {
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  justify-content: flex-end;
+  position: absolute;
+  right: 10%;
+}
+
+.navbar_1 a {
+  text-decoration: none;
+  color: white;
+  margin: 0.5rem;
+}
+
+.navbar_1 a:hover {
+  color: rgba(255, 255, 0, 0.86);
+}
+
+.navbar_1 h5 {
+  color: white;
+}
+
+.btn-icon {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 0.1rem solid crimson;
+}
+
+.btn-icon:hover {
+  cursor: pointer;
+}
+
+.icon_1 {
+  bottom: 5%;
+  left: 45%;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.icon_2 {
+  bottom: 5%;
+  left: 50%;
+}
+
+.icon_3 {
+  bottom: 5%;
+  left: 55%;
+}
+.main_1_content {
+  margin: 0rem;
+
+  width: 52%;
+  height: auto;
+  color: white;
+  margin-bottom: 5rem;
+}
+
+.main_1_content h2 {
+  line-height: 115%;
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+}
+
+.main_1_content p {
+  line-height: 129%;
+}
+
+.btn {
+  background: rgba(160, 0, 160, 0.9);
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 0, 0.9);
+  color: black;
+}
+
+/* welcome page section */
+
+.welcome_page {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  justify-content: space-evenly;
+  background: white;
+}
+
+.welcome_page h1 {
+  margin: 2.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.welcome_cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 60%;
+  justify-content: center;
+}
+
+.welcome_cont_p {
+  width: 60%;
+  color: grey;
+}
+.img {
+  margin-left: 1.2rem;
+}
+
+.grid_1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  overflow: hidden;
+}
+
+.card {
+  justify-content: center;
+  border-width: 0;
+  width: 160px;
+  height: auto;
+  margin: 1rem;
+}
+
+.card_header {
+  display: flex;
+  flex-wrap: wrap;
+  width: 160px;
+  height: auto;
+  margin: 0.5rem;
+  justify-content: center;
+}
+
+.icon {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background: purple;
+  border-radius: 50%;
+}
+
+.card_content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 160px;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.card_content p {
+  margin: 0.5rem;
+}
+
+/* project section */
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.project_container {
+  display: flex;
+}
+.project_card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 24.8vw;
+  height: auto;
+  background: rgba(207, 206, 206, 0.5);
+  overflow: hidden;
+}
+
+.project_content {
+  margin: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#prevBtn_div {
+  width: 40px;
+  height: 45px;
+  position: absolute;
+  top: 45%;
+  left: 0%;
+  background: grey;
+  opacity: 0.5;
+}
+
+#nextBtn_div {
+  width: 40px;
+  height: 45px;
+  position: absolute;
+  top: 45%;
+  right: 0%;
+  background: grey;
+  opacity: 0.5;
+}
+
+#prevBtn {
+  position: absolute;
+  top: 18%;
+  left: 10%;
+}
+
+#nextBtn {
+  position: absolute;
+  top: 15%;
+  right: 10%;
+}
+
+#prevBtn_div:hover {
+  cursor: pointer;
+}
+
+#nextBtn_div:hover {
+  cursor: pointer;
+}
+
+.project_card:hover {
+  background: rgba(226, 226, 11, 0.58);
+}
+
+.btn-pro {
+  background: white;
+  color: black;
+}
+
+.btn-pro:hover {
+  background: purple;
+  color: white;
+}
+
+/* pricing section */
+
+.pricing {
+  margin: 4rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.price_header {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.pricing_body {
+  display: flex;
+  justify-content: center;
+}
+
+.pricing_body p {
+  font-size: 0.9rem;
+}
+
+.pricing_card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 0;
+  padding: 0 1.5rem;
+  border-right: 1px solid grey;
+  width: 240px;
+  height: 250px;
+}
+
+.btn_price {
+  width: 80px;
+  height: 35px;
+  margin: 0;
+}
+
+/* video projects section */
+
+.video_section {
+  width: 100%;
+  height: auto;
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.video_header {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+.video_body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 75vh;
+  position: relative;
+}
+
+#video_slider {
+  position: absolute;
+  right: -0.5%;
+  top: 0%;
+  width: 99.5%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav_video {
+  position: absolute;
+  bottom: 3%;
+  left: 22%;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_video li {
+  list-style: none;
+  cursor: pointer;
+  border-radius: 2%;
+  margin: 0 10px;
+  background: #fff;
+  padding: 3px;
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.nav_video li:hover {
+  opacity: 1;
+}
+
+.nav_video li img {
+  width: 100px;
+  height: 70px;
+  transition: 0.5s;
+}
+
+.nav_video li img:hover {
+  width: 140px;
+  height: 95px;
+}
+
+/* zippy team section */
+
+.team {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.team_header {
+  width: 100%;
+  height: auto;
+  margin: 1rem 0;
+  color: black;
+}
+
+.team_body {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+
+.team_card {
+  width: 160px;
+  height: 180px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1rem 2.5rem;
+}
+
+.team_img {
+  width: 120px;
+  height: 120px;
+  background: purple;
+  border-radius: 50%;
+  margin: 1rem 0.5rem;
+  filter: drop-shadow(0.2rem 0.3rem 0.45rem crimson);
+}
+
+.overlay {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 0rem;
+  opacity: 0;
+}
+
+#fa {
+  position: absolute;
+  left: 15%;
+  margin: 0rem;
+}
+
+#tw {
+  position: absolute;
+  left: 38%;
+  margin: 0rem;
+}
+
+#gp {
+  position: absolute;
+  left: 70%;
+  margin: 0rem;
+  opacity: 1;
+}
+
+.team_img:hover {
+  cursor: pointer;
+}
+
+.overlay:hover {
+  transition: 0.3s ease-in-out;
+  opacity: 0.6;
+}
+
+.img_1 {
+  background: url("img/people_1.jpg");
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.img_2 {
+  background: url("img/people_2.jpg");
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.img_3 {
+  background: url("img/people_3.jpg");
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.img_4 {
+  background: url("img/people_4.jpg");
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.img_5 {
+  background: url("img/people_5.jpg");
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.img_6 {
+  background: url("img/people_6.jpg");
+  overflow: hidden;
+  background-size: cover;
+}
+
+/* life in zippy */
+
+.zippy_team {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 0rem;
+  background: rgba(209, 204, 204, 0.5);
+}
+
+.zippy_header {
+  width: 100%;
+  height: auto;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  color: black;
+}
+
+.zippy_body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+.zippy_img {
+  width: 560px;
+  height: 360px;
+  margin-bottom: 0rem;
+  background: url("img/img-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.img_gallery {
+  width: 53%;
+  height: 20vh;
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.gallery-img {
+  width: 24%;
+  height: 8vh;
+  margin: 2rem 0.3rem;
+  margin-top: 0;
+  background-color: crimson;
+  transition: 0.3s;
+}
+
+.gallery-img:hover {
+  transform: scale(1.2);
+}
+
+.gal_1 {
+  background: url("img/img-1.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 0.2rem solid black;
+  background-repeat: no-repeat;
+}
+
+.gal_2 {
+  background: url("img/img-2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gal_3 {
+  background: url("img/img-3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gal_4 {
+  background: url("img/img-4.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gal_5 {
+  background: url("img/img-5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gal_6 {
+  background: url("img/img-6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gallery-img:hover {
+  cursor: pointer;
+}
+
+/* newsletter */
+
+.newsletter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0rem;
+  width: 100%;
+  height: auto;
+  background: purple;
+  background: url("img/bridge_2_cut.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.newletter_header {
+  margin: 3rem;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.search {
+  width: 100%;
+  height: fit-content;
+}
+
+.btn-form {
+  margin: 0;
+  margin-left: 0.5rem;
+  background: purple;
+  color: white;
+}
+
+.btn-form:hover {
+  background: rgba(255, 255, 0, 0.9);
+  color: black;
+}
+
+/* blog section */
+
+.blog {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-x: hidden;
+}
+
+.blog_header {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.blog_body {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: centerS;
+}
+
+.blog_card {
+  width: 256px;
+  height: 460px;
+  margin: 2rem 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+.card_img {
+  width: 100%;
+  height: 50%;
+  background: white;
+}
+
+.card_img_1 {
+  background: url("img/blog_3.jpg");
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card_img_2 {
+  background: url("img/blog_2.jpg");
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card_content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.blog-btn {
+  margin: 0.6rem;
+  background: rgba(209, 204, 204, 0.6);
+}
+
+.blog-btn:hover {
+  background: rgba(255, 255, 0, 0.86);
+  color: black;
+}
+
+/* contact us section */
+
+.contact {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.map {
+  background: url("img/map.png");
+  background-position: center;
+  overflow: hidden;
+  width: 50%;
+  background-size: contain;
+}
+
+.contact_form {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  background: rgba(255, 255, 81, 0.8);
+}
+
+.contact-form {
+  width: 70%;
+}
+
+.form-btn {
+  width: 60%;
+  margin: 1rem 0;
+}
+
+.form-btn:hover {
+  background: rgba(209, 204, 204, 0.5);
+  color: black;
+}
+
+/* footer */
+
+.footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 25%;
+  height: 70%;
+  background: white;
+  text-align: center;
+  margin: 2rem 0.2rem;
+}
+
+.follow {
+  position: relative;
+}
+
+#fb_black {
+  position: absolute;
+  top: 50%;
+  left: 36%;
+}
+
+#insta {
+  position: absolute;
+  top: 46%;
+  left: 53%;
+}
+
+#tw_black {
+  position: absolute;
+  top: 83%;
+  left: 34%;
+}
+
+#lin {
+  position: absolute;
+  top: 83%;
+  left: 55%;
+}
+
+@media screen and (max-width: 1060px) {
+  .main {
+    width: 100%;
+    margin: 0;
+  }
+
+  .project_card {
+    width: 23vw;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .project_card {
+    width: 24vw;
+  }
+  .img_gallery {
+    width: 50%;
+    height: 10vh;
+  }
+
+  .gallery-img {
+    width: 20%;
+    height: 4vh;
+  }
+
+  .main_section {
+    transition: 0.3s ease-in-out;
+    width: 100%;
+    height: auto;
+  }
+
+  .main_1 {
+    width: 100%;
+    height: auto;
+  }
+
+  .main_1_content h2 {
+    font-size: 1.6rem;
+  }
+
+  .main_1_content {
+    font-size: 1.3rem;
+  }
+
+  .video_body {
+    width: 100%;
+    height: 50vh;
+  }
+}
