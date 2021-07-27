@@ -16,10 +16,7 @@ function App() {
   const [loading, setLoading]=useState(false);
 
   
-  const getUsers =(link)=>{
-
-      
-      console.log(users); 
+  const getUsers =(link)=>{ 
         axios.get(link).then((res)=>{
 
           res.data.data.map((item)=>{
@@ -78,7 +75,6 @@ function App() {
         {loading?<Loading className="col-md-12 col-12 mt-5"/>:<div className="col-md-12 col-12">
           <div className="row justify-content-center">
             {data?.map((user)=>{
-              console.log(data);
             return (
               <UserCard {...user} key={data.id}/>
             )
